@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+body {
+  font-family: "Cinzel";
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,45 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/* adapted from https://css-tricks.com/the-fixed-background-attachment-hack/  */
+.bg {
+  background: url('../public/images/annie-spratt-pKpipZVVEC0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.content{
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  width: 80%;
+}
+/* end adapted from https://css-tricks.com/the-fixed-background-attachment-hack/  */
+
+
+.card {
+  background-color: rgb(228, 235, 236);
+
+}
+
+.card-img-top {
+  height: 35vh;
+  object-fit: cover;
+}
+
+.project-button {
+  background-color: rgb(59,109,195);
+}
+
+.contact-link {
+  width: 100%;
+  height: 20vh;
+  object-fit: scale-down;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +71,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.my-nav {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  /* background-color: rgb(59,109,195); */
+  /* background: radial-gradient(circle, rgba(53,83,168,1) 6%, rgba(113,168,167,1) 39%, rgba(59,109,195,1) 95%); */
+  background: radial-gradient(circle, rgba(211,235,237,1) 3%, rgba(113,168,167,1) 57%, rgba(59,109,195,1) 99%);
+
+
 }
 
 @keyframes App-logo-spin {

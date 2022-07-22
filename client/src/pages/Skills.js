@@ -7,13 +7,21 @@ const skillList = [
     'HTML',
     'CSS',
     'REACT',
-    'MERN Full stack development',
+    'Full Stack MERN',
     'SQL',
     'MongoDB',
     'Apollo Server',
     'RESTful API',
     'node.JS',
-    'GitHub'
+    'GitHub',
+    "PWA's",
+    'sql',
+    'RESTful API',
+    'Apollo server',
+    'Express server',
+    'MVC',
+    'Stripe API',
+    'Heroku',
 ];
 
 const Skills = () => {
@@ -22,7 +30,7 @@ const Skills = () => {
             <Container>
                 <Row className='justify-content-center m-3'>
                     <Col md={9}>
-                    <Card className='m-2 mb-3 mx-100'>
+                    <Card className='m-2 mb-3 mx-100 shadow'>
                             <Card.Body>
                                 <Card.Title className="text-center">
                                     My Skills

@@ -8,11 +8,11 @@ const Header = () => {
     return (
         <>
             <Container>
-                    <Navbar variant="dark" expand="md">
+                    <Navbar className='mt-0 p-2 my-nav shadow' variant="dark" expand="md">
                         <Container>
-                            <Navbar.Brand href="#home">
+                            <Navbar.Brand href="/">
                                 <img
-                                alt=""
+                                alt="profile pic"
                                 src="/images/profilePic.jfif"
                                 width="100"
                                 className="d-inline-block align-bottom profile-pic"
@@ -22,7 +22,7 @@ const Header = () => {
                             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                             <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto">
-                                <Nav.Link href="/home">Home</Nav.Link>
+                                <Nav.Link href="/">Home</Nav.Link>
                                 <Nav.Link href="/skills">Skills</Nav.Link>
                                 <Nav.Link href="/projects">Projects</Nav.Link>
                             </Nav>

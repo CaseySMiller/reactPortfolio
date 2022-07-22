@@ -13,15 +13,17 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <div className='bg'>
+      </div>
       <div 
-      className="flex-column justify-flex-start" 
-      // style={{ backgroundImage: "url(/images/annie-spratt-pKpipZVVEC0-unsplash.jpg)" }}
+      className="flex-column justify-flex-start content" 
+
       >
         <Header />
         <div className="container">
           <Routes>
             <Route 
-              path="/home"
+              path="/"
               element={<Home />}
             />
             <Route 

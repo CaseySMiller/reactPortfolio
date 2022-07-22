@@ -1,74 +1,19 @@
 import React from 'react';
-import { Row, Col, Container, Card, Button } from 'react-bootstrap';
+import { Row, Col, Container, } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard';
 
-const projectList = [
-    {
-        _id: 'project-1',
-        image: 'shopKeep.png',
-        title: 'The Melted cone',
-        description: 'This is a full stack MERN eCommerce web-app for selling ice cream. This was a group project completed on 7/20/2022',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-2',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-3',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-4',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-5',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-6',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-    {
-        _id: 'project-7',
-        image: 'shopKeep.png',
-        title: 'ShopKeep',
-        description: 'This is the shopkeep app',
-        deployedSite: 'https://the-melted-cone.herokuapp.com/',
-        gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
-    },
-
-]
+import projectList from '../components/data/projectList';
 
 const Projects = () => {
 
     return (
         <>
             <Container>
-                <Row className='justify-content-center'>
-                    <Col md={6}>
+                <Row className='text-center mt-4'>
+                    <h2>Projects</h2>
+                </Row>
+                <Row className='justify-content-center align-items-stretch'>
+                    <Col md={6} className='my-2'>
                         <ProjectCard 
                             key={projectList[0]._id}
                             image={projectList[0].image}
@@ -76,10 +21,11 @@ const Projects = () => {
                             description={projectList[0].description}
                             deployedSite={projectList[0].deployedSite}
                             gitHub={projectList[0].gitHub}
+                            largeCol={true}
                         >
                         </ProjectCard>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className='my-2'>
                         <ProjectCard 
                             key={projectList[1]._id}
                             image={projectList[1].image}
@@ -87,12 +33,13 @@ const Projects = () => {
                             description={projectList[1].description}
                             deployedSite={projectList[1].deployedSite}
                             gitHub={projectList[1].gitHub}
+                            largeCol={true}
                         >
                         </ProjectCard>
                     </Col>
                 </Row>
                 <Row className='justify-content-center'>
-                    <Col md={4}>
+                    <Col md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[2]._id}
                             image={projectList[2].image}
@@ -103,7 +50,7 @@ const Projects = () => {
                         >
                         </ProjectCard>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[3]._id}
                             image={projectList[3].image}
@@ -114,7 +61,7 @@ const Projects = () => {
                         >
                         </ProjectCard>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[4]._id}
                             image={projectList[4].image}
