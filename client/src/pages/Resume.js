@@ -34,7 +34,7 @@ const Resume = () => {
                                 </div>
                                 <Button 
                                 variant="secondary" 
-                                className='m-2 col-xs-10 project-button'
+                                className='m-2 col-xs-10 my-button'
                                 target='_blank' 
                                 href={resumeFile}>
                                     Download .pdf
