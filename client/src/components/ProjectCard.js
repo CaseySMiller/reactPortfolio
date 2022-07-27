@@ -3,12 +3,6 @@ import { Row, Col, Container, Card, Button } from 'react-bootstrap';
 
 const placeholderImage = '/images/image-placeholder.jpg';
 
-// const styles = {
-//     projectCard: {
-//         height: "10rem",
-//     }
-// }
-
 function ProjectCard(project) {
 
     const {
