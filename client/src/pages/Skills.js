@@ -10,8 +10,6 @@ const skillList = [
     'Full Stack MERN',
     'SQL',
     'MongoDB',
-    'Apollo Server',
-    'RESTful API',
     'node.JS',
     'GitHub',
     "PWA's",
@@ -20,8 +18,14 @@ const skillList = [
     'Apollo server',
     'Express server',
     'MVC',
-    'Stripe API',
+    'Handlebars',
+    'jQuery',
+    'Bootstrap',
+    'Materialize',
+    'MD Bootstrap',
     'Heroku',
+    'Atlas',
+    'Stripe API',
 ];
 
 const Skills = () => {

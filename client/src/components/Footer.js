@@ -10,7 +10,7 @@ const Footer = () => {
                 Powered by Casey
             </section>
             <section className="footbox2">
-                2021
+                2022
             </section>
         </footer>
     );
