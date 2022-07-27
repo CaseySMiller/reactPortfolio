@@ -30,21 +30,16 @@ function ProjectCard(project) {
                 </div>
                 <div style={{marginTop: '12px'}}>
                     <Row className='justify-content-center mx-2'>
-                        {/* {largeCol ? (
-                            <h2>true</h2>
-                        ):(
-                            <h2>false</h2>
-                        )} */}
                         <Button 
                         variant="secondary" 
-                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 project-button' : 'm-2 col-xs-10 project-button'}
+                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-button' : 'm-2 col-xs-10 my-button'}
                         target='_blank' 
                         href={deployedSite}>
                             Deployed app
                         </Button>
                         <Button 
                         variant="secondary" 
-                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 project-button' : 'm-2 col-xs-10 project-button'}
+                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-button' : 'm-2 col-xs-10 my-button'}
                         target='_blank' 
                         href={gitHub}>
                             GitHub Repo
