@@ -28,6 +28,7 @@ const skillList = [
     'Heroku',
     'Atlas',
     'Stripe API',
+    'GraphQL',
 ];
 
 const Skills = () => {
