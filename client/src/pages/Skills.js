@@ -15,7 +15,6 @@ const skillList = [
     'node.JS',
     'GitHub',
     "PWA's",
-    'sql',
     'RESTful API',
     'Apollo server',
     'Express server',
