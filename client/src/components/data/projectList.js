@@ -5,7 +5,7 @@ const projectList = [
         _id: 'project-1',
         image: 'melted-cone.png',
         title: 'The Melted cone',
-        description: 'This is a full stack MERN eCommerce web-app for selling ice cream. This was a group project for my bootcamp class completed on 7/20/2022. It was designed using REACT on mongoDB with Apollo server and graphQl. Fully functional Stripe integration is included and will add the newly created order to the database after a purchase (use "4242 4242 4242 4242" for the credit card number to test) This app and most of my others are currently hosted on Heroku. I am in the process of learning AWS so that I can transfer everything to that platform when Heroku shuts down most of the free functionality in November.',
+        description: 'This is a full stack MERN eCommerce web-app for selling ice cream. This was a group project for my bootcamp class completed on 7/20/2022. It was designed using REACT on mongoDB with Apollo server and graphQl. Fully functional Stripe integration is included and will add the newly created order to the database after a purchase (use "4242 4242 4242 4242" for the credit card number to test). This app and most of my others are currently hosted on Heroku. I am in the process of learning AWS so that I can transfer everything to that platform when Heroku shuts down most of the free functionality in November.',
         deployedSite: 'https://the-melted-cone.herokuapp.com/',
         gitHub: 'https://github.com/CaseySMiller/theMeltedCone',
     },
