@@ -28,6 +28,13 @@ const skillList = [
     'Atlas',
     'Stripe API',
     'GraphQL',
+    'SEO Fundamentals',
+    'Adaptability',
+    'Efficient Upskilling',
+    'Strong Work Ethic',
+    'Self-Starter',
+    'Agile Methodology',
+    'Jack of all trades',
 ];
 
 const Skills = () => {
