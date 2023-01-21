@@ -28,6 +28,7 @@ const skillList = [
     'Atlas',
     'Stripe API',
     'GraphQL',
+    'Jest',
     'Linux',
     'SEO Fundamentals',
     'Adaptability',
