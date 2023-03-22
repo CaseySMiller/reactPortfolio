@@ -56,6 +56,14 @@ body {
   object-fit: scale-down;
 }
 
+.small-project-title{
+  color: #212529;
+  text-decoration: none ;
+}
+.small-project-title:hover{
+  color: #212529;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -4,7 +4,7 @@ import { MDBBtn, MDBRow, MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCar
 
 const placeholderImage = '/images/image-placeholder.jpg';
 
-function ProjectMDBCard(project) {
+function ProjectCard(project) {
 
     const {
         image,
@@ -12,7 +12,7 @@ function ProjectMDBCard(project) {
         description,
         deployedSite,
         gitHub,
-        largeCol
+        largeCol,
     } = project;
 
     return (
@@ -55,4 +55,4 @@ function ProjectMDBCard(project) {
     )
 };
 
-export default ProjectMDBCard;
+export default ProjectCard;

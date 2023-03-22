@@ -21,7 +21,7 @@ const Projects = () => {
                             description={projectList[0].description}
                             deployedSite={projectList[0].deployedSite}
                             gitHub={projectList[0].gitHub}
-                            largeMDBCol={true}
+                            largeCol={true}
                         >
                         </ProjectCard>
                     </MDBCol>
@@ -33,7 +33,7 @@ const Projects = () => {
                             description={projectList[1].description}
                             deployedSite={projectList[1].deployedSite}
                             gitHub={projectList[1].gitHub}
-                            largeMDBCol={true}
+                            largeCol={true}
                         >
                         </ProjectCard>
                     </MDBCol>
