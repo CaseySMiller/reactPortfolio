@@ -1,9 +1,10 @@
 import React from 'react';
-import { Row, Col, Container, Card, Button } from 'react-bootstrap';
+import { MDBBtn, MDBRow, MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage } from 'mdb-react-ui-kit';
+
 
 const placeholderImage = '/images/image-placeholder.jpg';
 
-function ProjectCard(project) {
+function ProjectMDBCard(project) {
 
     const {
         image,
@@ -15,40 +16,40 @@ function ProjectCard(project) {
     } = project;
 
     return (
-        <Card className='h-100 shadow'>
+        <MDBCard className='h-100 shadow'>
             {image ? (
-                <Card.Img variant="top" src={`/images/${image}`} />
+                <MDBCardImage variant="top" src={`/images/${image}`} />
                 ) : (
-                <Card.Img variant="top" src={placeholderImage} />
+                <MDBCardImage variant="top" src={placeholderImage} />
             )}
-            <Card.Body style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+            <MDBCardBody style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
                 <div>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Text>
+                    <MDBCardTitle>{title}</MDBCardTitle>
+                    <MDBCardText>
                         {description}
-                    </Card.Text>
+                    </MDBCardText>
                 </div>
                 <div style={{marginTop: '12px'}}>
-                    <Row className='justify-content-center mx-2'>
-                        <Button 
+                    <MDBRow className='justify-content-center mx-2'>
+                        <MDBBtn 
                         variant="secondary" 
-                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-button' : 'm-2 col-xs-10 my-button'}
+                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-MDBbtn' : 'm-2 col-xs-10 my-MDBbtn'}
                         target='_blank' 
                         href={deployedSite}>
                             Deployed app
-                        </Button>
-                        <Button 
+                        </MDBBtn>
+                        <MDBBtn 
                         variant="secondary" 
-                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-button' : 'm-2 col-xs-10 my-button'}
+                        className={largeCol ? 'm-2 col-xs-10 col-lg-5 my-MDBbtn' : 'm-2 col-xs-10 my-MDBbtn'}
                         target='_blank' 
                         href={gitHub}>
                             GitHub Repo
-                        </Button>
-                    </Row>
+                        </MDBBtn>
+                    </MDBRow>
                 </div>
-            </Card.Body>
-        </Card>
+            </MDBCardBody>
+        </MDBCard>
     )
 };
 
-export default ProjectCard;
+export default ProjectMDBCard;

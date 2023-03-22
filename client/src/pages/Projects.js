@@ -1,19 +1,19 @@
 import React from 'react';
-import { Row, Col, Container, } from 'react-bootstrap';
-import ProjectCard from '../components/ProjectCard';
+import { MDBContainer, MDBCol, MDBRow, } from 'mdb-react-ui-kit';
 
+import ProjectCard from '../components/ProjectCard';
 import projectList from '../components/data/projectList';
 
 const Projects = () => {
 
     return (
         <>
-            <Container>
-                <Row className='text-center mt-4'>
+            <MDBContainer>
+                <MDBRow className='text-center mt-4'>
                     <h2>Projects</h2>
-                </Row>
-                <Row className='justify-content-center align-items-stretch'>
-                    <Col md={6} className='my-2'>
+                </MDBRow>
+                <MDBRow className='justify-content-center align-items-stretch'>
+                    <MDBCol md={6} className='my-2'>
                         <ProjectCard 
                             key={projectList[0]._id}
                             image={projectList[0].image}
@@ -21,11 +21,11 @@ const Projects = () => {
                             description={projectList[0].description}
                             deployedSite={projectList[0].deployedSite}
                             gitHub={projectList[0].gitHub}
-                            largeCol={true}
+                            largeMDBCol={true}
                         >
                         </ProjectCard>
-                    </Col>
-                    <Col md={6} className='my-2'>
+                    </MDBCol>
+                    <MDBCol md={6} className='my-2'>
                         <ProjectCard 
                             key={projectList[1]._id}
                             image={projectList[1].image}
@@ -33,13 +33,13 @@ const Projects = () => {
                             description={projectList[1].description}
                             deployedSite={projectList[1].deployedSite}
                             gitHub={projectList[1].gitHub}
-                            largeCol={true}
+                            largeMDBCol={true}
                         >
                         </ProjectCard>
-                    </Col>
-                </Row>
-                <Row className='justify-content-center'>
-                    <Col md={4} className='my-2'>
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow className='justify-content-center'>
+                    <MDBCol md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[2]._id}
                             image={projectList[2].image}
@@ -49,8 +49,8 @@ const Projects = () => {
                             gitHub={projectList[2].gitHub}
                         >
                         </ProjectCard>
-                    </Col>
-                    <Col md={4} className='my-2'>
+                    </MDBCol>
+                    <MDBCol md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[3]._id}
                             image={projectList[3].image}
@@ -60,8 +60,8 @@ const Projects = () => {
                             gitHub={projectList[3].gitHub}
                         >
                         </ProjectCard>
-                    </Col>
-                    <Col md={4} className='my-2'>
+                    </MDBCol>
+                    <MDBCol md={4} className='my-2'>
                         <ProjectCard 
                             key={projectList[4]._id}
                             image={projectList[4].image}
@@ -71,9 +71,9 @@ const Projects = () => {
                             gitHub={projectList[4].gitHub}
                         >
                         </ProjectCard>
-                    </Col>
-                </Row>
-            </Container>
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer>
         </>
     );
 };
