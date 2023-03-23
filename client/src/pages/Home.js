@@ -66,7 +66,7 @@ const Home = () => {
                     </MDBCol>
                     <MDBCol className='col-12 order-lg-1'>
                         <MDBRow className='text-center'>
-                            <h5>Projects</h5>
+                            <h5>Top Projects</h5>
                         </MDBRow>
                         <MDBRow  className='justify-content-around mb-3' >
                             <MDBCol md={9} lg={4} className='my-2 px-4'>
