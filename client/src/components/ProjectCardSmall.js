@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBBtn, MDBRow, MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardImage } from 'mdb-react-ui-kit';
+import { MDBRipple, MDBCard, MDBCardTitle, MDBCardBody, MDBCardImage } from 'mdb-react-ui-kit';
 
 
 const placeholderImage = '/images/image-placeholder.jpg';
@@ -20,11 +20,13 @@ function ProjectCardSmall(project) {
                         <div className='text-center'>
                             <MDBCardTitle >{title}</MDBCardTitle>
                         </div>
-                    {image ? (
-                        <MDBCardImage className='rounded' src={`/images/${image}`} />
-                        ) : (
-                        <MDBCardImage className='rounded' src={placeholderImage} />
-                    )}
+                        <MDBRipple className='hover-zoom'>
+                            {image ? (
+                                <MDBCardImage className='rounded img-fluid' src={`/images/${image}`} />
+                                ) : (
+                                <MDBCardImage className='rounded img-fluid' src={placeholderImage} />
+                            )}
+                        </MDBRipple>
                     </MDBCardBody>
                 </MDBCard>
             </a>
