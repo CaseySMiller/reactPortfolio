@@ -13,7 +13,7 @@ const projectList = [
         _id: 'project-2',
         image: 'shopKeep.png',
         title: 'ShopKeep',
-        description: 'This is a general inventory control web application that can be used for managing inventory for a business. This was a group project that I developed with three other students. This application is deployed and live on Heroku. It is built on node.js and uses express-sessions for authentication to limit functionality to logged in users with added functionality for those with admin priviledges.  All user and inventory data is stored on a mySQL database using jawsDB. The gitHub repo can be found at the link below.',
+        description: 'This is a general inventory control web application that can be used for managing inventory for a business. This was a group project that I developed with three other students. This application is deployed and live on Heroku. It is built on node.js and uses express-sessions for authentication to limit functionality to logged in users with added functionality for those with admin priviledges. To test use (username: root, password: password) for admin or (username: nonAdmin, password: password) for non admin.  All user and inventory data is stored on a mySQL database using jawsDB. The gitHub repo can be found at the link below.',
         deployedSite: 'https://dry-caverns-71259.herokuapp.com/',
         gitHub: 'https://github.com/PeterBookmyer/Inventory-Management-App',
     },
