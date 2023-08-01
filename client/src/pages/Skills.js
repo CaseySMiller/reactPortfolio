@@ -21,6 +21,7 @@ const skillList = [
     'MVC',
     'Handlebars',
     'jQuery',
+    'Tailwind CSS',
     'Bootstrap',
     'Materialize',
     'MD Bootstrap',
