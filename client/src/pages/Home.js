@@ -17,14 +17,16 @@ const Home = () => {
                                     <MDBCard className='mb-3 mx-100 hover-shadow'>
                                         <MDBCardBody>
                                             <MDBCardTitle className="text-center">
-                                                About Me
+                                                Welcome to my portfolio!
                                             </MDBCardTitle>
                                             <MDBCardText className='text-center'>
-                                            I am an aspiring developer and a recent graduate of a full stack bootcamp through the <a href="https://bootcamp.du.edu/coding/" target="_blank" rel="noreferrer">University of Denver</a>. I bring a creative, can-do attitude to every project I take on.
+                                            Are you looking for a passionate and skilled web developer to join your team? You've come to the right place.
                                             <br/>
-                                            I am still learning but I have built web front ends as a hobby for decades. Throughout my training I have gained a strong foundation in building a full stack application in Javascript using current good practice and modern techniques.
+                                            As a tech educator and freelance web developer, I've honed my expertise in both communication and building top-notch web applications. My current focus is on crafting efficient and scalable solutions using the MERN stack and Jamstack technologies.
                                             <br/>
-                                            I have encountered many challenges during my education but I loved every minute of it. I thrive in a fast paced, challenging environment and I look forward to all of the new things I will learn as a Junior Developer.
+                                            I thrive in all things JavaScript and I'm constantly exploring new opportunities to learn and grow. Currently, I'm enhancing my TypeScript skills and diving into the world of Python. My dedication to continuous improvement ensures I stay at the forefront of web development trends.
+                                            <br/>
+                                            I'm eager to bring my hard work, self-motivation, and collaborative spirit to a full-time role where I can contribute to a larger codebase and team environment. If you're searching for a developer who combines technical expertise with a passion for learning, let's connect and discuss how I can add value to your projects.
                                             </MDBCardText>
                                         </MDBCardBody>
                                     </MDBCard>

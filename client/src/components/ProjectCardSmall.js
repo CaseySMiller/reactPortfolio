@@ -20,7 +20,7 @@ function ProjectCardSmall(project) {
                         <div className='text-center'>
                             <MDBCardTitle >{title}</MDBCardTitle>
                         </div>
-                        <MDBRipple className='hover-zoom'>
+                        <MDBRipple className='hover-zoom ratio ratio-16x9'>
                             {image ? (
                                 <MDBCardImage className='rounded img-fluid' src={`/images/${image}`} />
                                 ) : (
