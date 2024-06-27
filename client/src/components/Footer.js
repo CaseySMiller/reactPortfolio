@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer light-title">
             <section className="footbox1">
                 Powered by Casey
             </section>

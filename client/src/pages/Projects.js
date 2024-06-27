@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <>
             <MDBContainer>
-                <MDBRow className='text-center mt-4'>
+                <MDBRow className='text-center mt-4 light-title'>
                     <h2>Projects</h2>
                 </MDBRow>
                 <MDBRow className='justify-content-center align-items-stretch'>

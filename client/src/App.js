@@ -14,12 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className='bg'>
-      </div>
-      <div 
-      className="flex-column justify-flex-start content" 
-
-      >
+      <div className="flex-column justify-flex-start">
         <Header />
         <div className="container">
           <Routes>

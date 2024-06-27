@@ -1,7 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 
+
 body {
   font-family: "Cinzel";
+  background: linear-gradient(
+    70deg,
+    hsl(217deg 19% 27%) 0%,
+    hsl(221deg 32% 35%) 12%,
+    hsl(220deg 42% 43%) 21%,
+    hsl(218deg 54% 50%) 29%,
+    hsl(222deg 49% 62%) 36%,
+    hsl(223deg 45% 71%) 42%,
+    hsl(221deg 39% 80%) 48%,
+    hsl(223deg 45% 71%) 53%,
+    hsl(222deg 49% 62%) 60%,
+    hsl(218deg 54% 50%) 66%,
+    hsl(220deg 42% 43%) 74%,
+    hsl(221deg 32% 35%) 84%,
+    hsl(217deg 19% 27%) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  height: 100%;
+}
+/* keyframes to animate the gradient background */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .App {
@@ -12,25 +44,6 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
-
-/* adapted from https://css-tricks.com/the-fixed-background-attachment-hack/  */
-.bg {
-  background: url('../public/images/annie-spratt-pKpipZVVEC0-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-}
-
-.content{
-  position: absolute;
-  left: 50%; 
-  transform: translateX(-50%);
-  width: 80%;
-}
-/* end adapted from https://css-tricks.com/the-fixed-background-attachment-hack/  */
-
 
 .card {
   background-color: rgb(228, 235, 236);
@@ -56,9 +69,14 @@ body {
   object-fit: scale-down;
 }
 
+.light-title{
+  color: #dee2e6;
+  text-decoration: none ;
+}
+
 .small-project-title{
   color: #212529;
-  text-decoration: none ;
+  text-decoration: none;
 }
 .small-project-title:hover{
   color: #212529;
