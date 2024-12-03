@@ -14,7 +14,7 @@ function ProjectCardSmall(project) {
 
     return (
         <div className='h-100 shadow p-0 m-0'>
-            <a href={deployedSite} className='small-project-title' target="_blank">
+            <a href={deployedSite} className='small-project-title' target="_blank" rel='noopener noreferrer'>
                 <MDBCard className='h-100 hover-shadow'>
                     <MDBCardBody style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
                         <div className='text-center'>
